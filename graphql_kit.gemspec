@@ -28,4 +28,5 @@ Gem::Specification.new do |spec|
   spec.add_dependency "graphql", "~> 1.8"
   spec.add_dependency "graphql-batch", "~> 0.4.3"
   spec.add_dependency "memoizer"
+  spec.add_dependency "priority_queue_cxx"
 end
