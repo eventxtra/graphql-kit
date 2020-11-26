@@ -23,7 +23,7 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
 
-  spec.add_dependency "activesupport", "~> 6.0.0"
+  spec.add_dependency "activesupport", "< 5.3"
   spec.add_dependency "base58"
   spec.add_dependency "graphql", "~> 1.8"
   spec.add_dependency "graphql-batch", "~> 0.4.3"
